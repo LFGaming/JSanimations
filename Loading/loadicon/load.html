@@ -13,6 +13,52 @@
   animation: spin 2s linear infinite;
 }
 
+.loader2 {
+  border-top: 16px solid #6200ff;
+  border-bottom: 16px solid #6200ff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.loader3 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #6200ff;
+  border-bottom: 16px solid #6200ff;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.loader4 {
+    border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.loader5 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
 /* Safari */
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
@@ -25,7 +71,16 @@
 }
 </style>
 </head>
-<body>
+<body style=margin-left:50px>
+    <p>loader</p>
     <div class="loader"></div>
+    <br><p>loader2</p>
+    <div class="loader2"></div>
+    <br><p>loader3</p>
+    <div class="loader3"></div>
+    <br><p>loader4</p>
+    <div class="loader4"></div>
+    <br><p>loader5</p>
+    <div class="loader5"></div>
 </body>
 </html>
