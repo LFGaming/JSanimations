@@ -4,15 +4,15 @@ var w = c.width = window.innerWidth,
     
     opts = {
       
-      len: 20,
-      count: 50,
-      baseTime: 10,
-      addedTime: 10,
-      dieChance: .05,
-      spawnChance: 1,
-      sparkChance: .1,
-      sparkDist: 10,
-      sparkSize: 2,
+      len: 20, //How big are the lines
+      count: 50, //how many lines
+      baseTime: 10, //how quick
+      addedTime: 10, //also how quick but different
+      dieChance: .05, //chanse of line dying
+      spawnChance: 1, //chanse of line spawning
+      sparkChance: .1, //chanse of sparks
+      sparkDist: 10, //how far do the sparks go
+      sparkSize: 2, //how big are the sparks
       
       color: 'hsl(hue,100%,light%)',
       baseLight: 50,
