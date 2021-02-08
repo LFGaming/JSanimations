@@ -4,7 +4,7 @@ var w = c.width = window.innerWidth,
     
     opts = {
       
-      len: 20,
+      len: 50,
       count: 50,
       baseTime: 10,
       addedTime: 10,
